@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[The station name is::Interview960]]>
+    </line>
+    <line>
+      <![CDATA[The station name is::{altitude=444, latitude=33.33, name=Interview960, external_id=Interview1, longitude=-111.43}]]>
+    </line>
+    <line>
+      <![CDATA[The framed request json  is::{"name":"Interview960","altitude":444,"external_id":"Interview1","latitude":33.33,"longitude":-111.43}]]>
+    </line>
+    <line>
+      <![CDATA[The Id ::5f7ef1a8cca8ce0001ef6435]]>
+    </line>
+  </reporter-output>
+  <suite name="AssignmentDemo" duration-ms="38596" started-at="2020-10-08T11:01:27Z" finished-at="2020-10-08T11:02:05Z">
+    <groups>
+    </groups>
+    <test name="FBLoginAndRestAPIDemo" duration-ms="38596" started-at="2020-10-08T11:01:27Z" finished-at="2020-10-08T11:02:05Z">
+      <class name="com.demo.tests.Scenario1Test">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.demo.tests.Scenario1Test@73ad2d6]" name="setUp" is-config="true" duration-ms="15976" started-at="2020-10-08T16:31:27Z" finished-at="2020-10-08T16:31:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="scenario1Test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.demo.tests.Scenario1Test@73ad2d6]" name="scenario1Test" duration-ms="16657" started-at="2020-10-08T16:31:43Z" data-provider="Scenario1" finished-at="2020-10-08T16:32:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jetblue@grr.la]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jetblue]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Product successfully added to your shopping cart]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Faded Short Sleeve T-shirts]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Color : Orange, Size : S]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[$16.51]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scenario1Test -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.demo.tests.Scenario1Test@73ad2d6]" name="tearDown" is-config="true" duration-ms="701" started-at="2020-10-08T16:32:04Z" finished-at="2020-10-08T16:32:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.demo.tests.Scenario1Test -->
+      <class name="com.demo.tests.Scenario3Test">
+        <test-method status="PASS" signature="inavalidApiKeyDemoTest(java.lang.String, java.lang.String)[pri:0, instance:com.demo.tests.Scenario3Test@7085bdee]" name="inavalidApiKeyDemoTest" duration-ms="1775" started-at="2020-10-08T16:32:00Z" data-provider="InvalidAPIKeyRestAPIDemoTest" finished-at="2020-10-08T16:32:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[external_id,name,latitude,longitude,altitude]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Interview1,Interview879,33.44,-12.44,444]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inavalidApiKeyDemoTest -->
+        <test-method status="PASS" signature="regStationAPITest(java.lang.String, java.lang.String)[pri:0, instance:com.demo.tests.Scenario3Test@7085bdee]" name="regStationAPITest" duration-ms="2571" started-at="2020-10-08T16:32:02Z" data-provider="RegStationAPITest1" finished-at="2020-10-08T16:32:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Interview1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Interview]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[The station name is::Interview960]]>
+            </line>
+            <line>
+              <![CDATA[The station name is::{altitude=444, latitude=33.33, name=Interview960, external_id=Interview1, longitude=-111.43}]]>
+            </line>
+            <line>
+              <![CDATA[The framed request json  is::{"name":"Interview960","altitude":444,"external_id":"Interview1","latitude":33.33,"longitude":-111.43}]]>
+            </line>
+            <line>
+              <![CDATA[The Id ::5f7ef1a8cca8ce0001ef6435]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- regStationAPITest -->
+      </class> <!-- com.demo.tests.Scenario3Test -->
+    </test> <!-- FBLoginAndRestAPIDemo -->
+  </suite> <!-- AssignmentDemo -->
+</testng-results>
